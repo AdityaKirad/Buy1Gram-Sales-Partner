@@ -1,0 +1,53 @@
+---
+import { Image } from "astro:assets";
+import GroundNut from "../assets/groundnut.png";
+import KabuliChana from "../assets/kabuli-chana.png";
+import Daliya from "../assets/daliya.png";
+---
+
+<div class="text-center">
+  <h2 class="text-[2rem] sm:text-5xl md:text-[5rem] mb-8">OUR PRODUCTS</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-3">
+    <section class="flex justify-between items-center sm:flex-col gap-4 p-[0.625em]">
+      <div class="h-60 sm:h-80 aspect-square">
+      <Image
+        class="h-full w-full object-cover object-center"
+        src={GroundNut}
+        alt="GroundNut"
+      />
+      </div>
+      <div>
+        <h3>GROUNDNUT</h3>
+        <p>They Contain Potassium, Phosphorous, Magnesium, B Vitamins.</p>
+      </div>
+    </section>
+
+    <section class="flex justify-between items-center sm:flex-col gap-4 p-[0.625em]">
+      <div class="h-60 sm:h-80 aspect-square">
+      <Image
+        class="h-full w-full object-cover object-center"
+        src={KabuliChana}
+        alt="Kabuli Chana"
+      />
+      </div>
+      <div>
+        <h3>KABULI CHANA</h3>
+        <p>Rich Source Of Minerals Like Iron, Potassium, Magnesium, Calcium.</p>
+      </div>
+    </section>
+
+    <section class="flex justify-between items-center sm:flex-col gap-4 p-[0.625em]">
+      <div class="h-60 sm:h-80 aspect-square">
+      <Image
+        class="h-full w-full object-cover object-center"
+        src={Daliya}
+        alt="Daliya"
+      />
+      </div>
+      <div>
+        <h3>Daliya</h3>
+        <p>A Source Of Fiber And Protein.</p>
+      </div>
+    </section>
+  </div>
+</div>

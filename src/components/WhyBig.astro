@@ -1,0 +1,51 @@
+---
+import { Image } from "astro:assets";
+import HuggingEarth from "../assets/hugging-earth.webp";
+import Letter from "../assets/letter.webp";
+import ThumbsUp from "../assets/thumbs-up.webp";
+---
+
+<div class="text-center">
+  <h2 class="text-[2rem] sm:text-5xl md:text-[5rem] mb-8">WHY BIG</h2>
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 gap-8"
+  >
+    <section>
+      <div class="flex items-center justify-center gap-4">
+        <Image
+          class="w-40 aspect-square object-cover object-center"
+          src={HuggingEarth}
+          alt="Hugging Earth"
+          loading="lazy"
+        />
+        <h3>Flexibility</h3>
+      </div>
+      <p>
+        Our services are totally flexible and can be used on a campaign basis
+        whenever required. We also provide speed and experience.
+      </p>
+    </section>
+
+    <section>
+      <div class="flex justify-center items-center gap-4">
+        <Image class="w-40 aspect-square object-cover object-center" src={ThumbsUp} alt="Thumbs Up" loading="lazy" />
+        <h3>Strenthen our marketing effort</h3>
+      </div>
+      <p>
+        Our services can be used in combination with your internal marketing and
+        sales strategy to increase brand awareness.
+      </p>
+    </section>
+
+    <section class="">
+      <div class="flex items-center justify-center gap-4">
+        <Image class="w-40 aspect-square object-cover object-center" src={Letter} alt="Letter" loading="lazy" />
+        <h3>Tailor-made offer</h3>
+      </div>
+      <p>
+        We listen our clients' business requirements.We go above and beyond
+        expectations and provide full support throughout the project cycle.
+      </p>
+    </section>
+  </div>
+</div>
