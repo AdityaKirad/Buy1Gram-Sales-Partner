@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://buy1gram-suppliers.pages.dev/",
+  site: "https://buy1gram-sales-partner.pages.dev/",
   integrations: [tailwind({ applyBaseStyles: false }), sitemap()],
   experimental: {
     assets: true,

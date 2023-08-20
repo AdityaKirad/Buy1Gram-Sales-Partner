@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://buy1gram-suppliers.pages.dev/sitemap-index.xml
+Sitemap: https://buy1gram-sales-partner.pages.dev/sitemap-index.xml
